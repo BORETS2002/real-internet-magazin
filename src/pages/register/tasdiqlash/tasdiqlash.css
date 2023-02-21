@@ -1,0 +1,132 @@
+.register {
+}
+
+.register-back-buton {
+  /* display: block !important;
+
+  max-width: 450px !important;
+  margin-right: auto;
+  margin-left: auto;*/
+  background: none;
+  margin-top: 20px;
+  border: none;
+}
+.register-big-text {
+  margin-top: 38px;
+  margin-bottom: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+}
+.register-mini-text {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #000000;
+}
+.register-form {
+}
+.form-text {
+  display: block;
+  max-width: 440px;
+  margin-bottom: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #727474;
+}
+.input-label {
+  width: 100%;
+  min-width: 340px;
+}
+.input-heroTwoo {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  background: #f9f9f9;
+  border-radius: 4px;
+  padding: 14px;
+}
+.input-heroTwoo:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+.qwer-box {
+  margin-top: auto;
+}
+.submit-form {
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 155px;
+  padding: 15px 0;
+  background: #000000;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+.disabled {
+  opacity: 0.4;
+  position: relative;
+  z-index: -200;
+  /* display: none; */
+}
+.register-text-wrapper {
+  max-width: 440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-control {
+  display: block;
+  height: 50px;
+  margin-right: 0.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  min-width: 0;
+  background: #f1f1f1;
+
+  border-bottom: 1px solid #020105;
+  border-radius: 4px;
+}
+.otp-box {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 520px) {
+  .register {
+    /* background: red; */
+  }
+
+  .register-back-buton {
+  }
+  .register-mini-text {
+  }
+  .register-form {
+  }
+  .form-text {
+  }
+  .submit-form {
+  }
+}
